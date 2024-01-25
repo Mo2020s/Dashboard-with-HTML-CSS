@@ -1348,6 +1348,34 @@ header .icons img {
   color: var(--red-color);
 }
 
+
+@media (max-width: 540px) {
+  .plans-page {
+    grid-template-columns:  minmax(200px, 1fr);
+  }
+
+  .plans-page .card {
+    padding: 10px;
+  }
+
+  .plans-page .card .title span{
+    font-size: 20px;
+  }
+
+  .plans-page .card .title {
+    padding: 10px 0;
+  }
+
+  .plans-page .card ul li p {
+    font-size: 14px;
+  }
+
+  .plans-page .card ul li i {
+    font-size: 12px;
+  }
+
+}
+
 @media (max-width: 700px) {
   .files-page {
     flex-direction: column-reverse;
